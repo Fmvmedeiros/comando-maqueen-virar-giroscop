@@ -20,11 +20,11 @@ input.onButtonPressed(Button.B, function () {
 let TrasFast = false
 let FrenteFast = false
 basic.showLeds(`
-    # # . # #
-    . # . # .
-    . . # . .
-    . # . # .
-    # # . # #
+    # # # # #
+    . . . . #
+    # # # # #
+    # . . . .
+    # # # # #
     `)
 radio.setGroup(2)
 FrenteFast = false
